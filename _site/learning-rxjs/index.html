@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>learning-rxjs | Programando pela excelência…</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="learning-rxjs" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Um amante do código e boas práticas de programação. Em busca da excelência e de boas amizades no caminho." />
+<meta property="og:description" content="Um amante do código e boas práticas de programação. Em busca da excelência e de boas amizades no caminho." />
+<link rel="canonical" href="http://localhost:4000/learning-rxjs/" />
+<meta property="og:url" content="http://localhost:4000/learning-rxjs/" />
+<meta property="og:site_name" content="Programando pela excelência…" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="learning-rxjs" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/learning-rxjs/","description":"Um amante do código e boas práticas de programação. Em busca da excelência e de boas amizades no caminho.","@type":"WebPage","headline":"learning-rxjs","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Programando pela excelência..." /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Programando pela excelência...</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">Sobre</a><a class="page-link" href="/learning-rxjs/">learning-rxjs</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">learning-rxjs</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="learning-rxjs">learning-rxjs</h1>
+<ul>
+  <li>Busca pelo aprendizado e domínio da lib RxJS para Programação Reativa(Reactive Programming)</li>
+</ul>
+
+<blockquote>
+  <p>Após aprender bastante com o framework Angular, desta vez busco aprendizado de uma lib muito utilizada - RxJS.<br />
+Neste repo, se encontra minhas divagações e argumentos sobre meu caminho rumo ao domínio e entendimento desta fabulosa lib.
+<br />#functions #asynchronous #promises</p>
+</blockquote>
+
+<h2 id="programação-assíncrona">Programação Assíncrona</h2>
+<h3 id="vantagens">Vantagens</h3>
+<ul>
+  <li>Tarefas como esperar uma resposta de algum servidor ou o retorno de operações no Banco de dados não devem travar a aplicação.</li>
+  <li>o Poder da inversão de controle onde ao invés de ter unicamente a aplicação chamando funções, uma função callback pode chamar a aplicação de volta</li>
+</ul>
+
+<h3 id="desvantagens">Desvantagens</h3>
+<ul>
+  <li>Dificuldade em determinar o estado (state) da aplicação</li>
+  <li>É dificil determinar quais tarefas (tasks) terminam primeiro e em que ordem</li>
+  <li>
+    <h2 id="o-que-é-rxjs">O que é RxJS</h2>
+    <ol>
+      <li>Segundo a definição oficial <a href="https://rxjs.dev/guide/overview">RxJS.dev</a>: É uma biblioteca para compor aplicações asíncronas e baseada em eventos.</li>
+    </ol>
+  </li>
+</ul>
+
+<h3 id="rxjs-types">RxJS Types</h3>
+<ul>
+  <li>Main Type
+    <ul>
+      <li>Obsevable &gt; Representa um evento ou colecão futura</li>
+    </ul>
+  </li>
+  <li>Sattelites Types:
+    <ul>
+      <li>Observer &gt; Uma coleção de callbacks que ficam de olho nos eventos disparados pelo Observable</li>
+      <li>Subscriptions &gt; Representam a execução  de um Observable - muito bom para cancelar a execução</li>
+      <li>Schedulers &gt; Despachantes centrais utilizados no controle de concurrência</li>
+      <li>Subjects</li>
+    </ul>
+  </li>
+  <li>Operators &gt; funções para lidar com coleções e operadores
+    <ul>
+      <li>map</li>
+      <li>filter</li>
+      <li>reduce</li>
+      <li>every</li>
+      <li>…</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="lets-code">Let`s Code</h2>
+<h3 id="exemplos-iniciais">Exemplos iniciais</h3>
+<p><a href="/learning-rxjs/example1.html">example1</a></p>
+
+  </div>
+
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Programando pela excelência...</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Programando pela excelência...</li><li><a class="u-email" href="mailto:fabiano.marechal@gmail.com">fabiano.marechal@gmail.com</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/fabianomarechal"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">fabianomarechal</span></a></li><li><a href="https://www.twitter.com/fabianomarechal"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">fabianomarechal</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Um amante do código e boas práticas de programação. Em busca da excelência e de boas amizades no caminho.</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
