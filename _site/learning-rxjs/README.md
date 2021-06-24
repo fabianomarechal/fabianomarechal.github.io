@@ -35,5 +35,5 @@ Neste repo, se encontra minhas divagações e argumentos sobre meu caminho rumo 
 
 ## Let`s Code
 ### Exemplos iniciais
-[Exemplo 1 - log no console ao clicar](example1/index.html)
+[Exemplo 1 - log no console ao clicar](example1/index.html)<br>
 [Exemplo 2 - Calculadora](example2/index.html)
