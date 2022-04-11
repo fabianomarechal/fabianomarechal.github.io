@@ -1,41 +1,99 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Programando pela excelência… | Um amante do código e boas práticas de programação. Em busca da excelência e de boas amizades no caminho.</title>
-<meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Programando pela excelência…" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Um amante do código e boas práticas de programação. Em busca da excelência e de boas amizades no caminho." />
-<meta property="og:description" content="Um amante do código e boas práticas de programação. Em busca da excelência e de boas amizades no caminho." />
-<link rel="canonical" href="http://localhost:4000/404.html" />
-<meta property="og:url" content="http://localhost:4000/404.html" />
-<meta property="og:site_name" content="Programando pela excelência…" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Programando pela excelência…" />
-<script type="application/ld+json">
-{"url":"http://localhost:4000/404.html","description":"Um amante do código e boas práticas de programação. Em busca da excelência e de boas amizades no caminho.","@type":"WebPage","headline":"Programando pela excelência…","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Programando pela excelência..." /></head>
-<body><header class="site-header" role="banner">
+<html lang="en">
 
-  <div class="wrapper"><a class="site-title" rel="author" href="/">Programando pela excelência...</a><nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Tailwind Starter Template - Minimal Blog: Tailwind Toolbox</title>
+  <meta name="author" content="name" />
+  <meta name="description" content="description here" />
+  <meta name="keywords" content="keywords,here" />
+  <link rel="stylesheet" href="/assets/main.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+  <!--Replace with your tailwind.css once created-->
+</head>
 
-        <div class="trigger"><a class="page-link" href="/about/">Sobre</a><a class="page-link" href="/learning-rxjs/">learning-rxjs</a></div>
-      </nav></div>
-</header>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <style type="text/css" media="screen">
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+	<nav id="header" class="fixed w-full z-10 top-0">
+
+    <div id="progress" class="h-1 z-20 top-0" style="background:linear-gradient(to right, #4dc0b5 var(--scroll), transparent 0);"></div>
+
+    <div class="w-full md:max-w-4xl mx-auto flex flex-wrap items-center justify-between mt-0 py-3">
+
+        <div class="pl-4">
+            <a class="text-gray-900 text-base no-underline hover:no-underline font-extrabold text-xl" href="/">
+                Fabiano`s Personal Blog
+            </a>
+        </div>
+
+        <div class="block lg:hidden pr-4">
+            <button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-green-500 appearance-none focus:outline-none">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20" id="nav-content">
+            <ul class="list-reset lg:flex justify-end flex-1 items-center">
+                <li class="mr-3">
+                    <a class="inline-block py-2 px-4 text-gray-900 font-bold no-underline" href="/">Home</a>
+                </li>
+                <li class="mr-3">
+                    <a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4" href="/about">About</a>
+                </li>
+                <li class="mr-3">
+                    <a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4" href="#">link</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+	<!--Container-->
+	<div class="container w-full md:max-w-3xl mx-auto pt-20">
+
+		
+    <div class="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal" style="font-family:Georgia,serif;">
+
+
+        <!--Title-->
+        <div class="font-sans">
+            <h1 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl"><a href="/blog/update/news/2021/03/16/welcome-to-my-blog.html">Bem vindos!</a></h1>
+            <p class="text-sm md:text-base font-normal text-gray-600">Published on 16 March 2021</p>
+        </div>
+
+        <div>
+            <p>Bem vindos</p>
+        </div>
+
+    </div>
+
+    <div class="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal" style="font-family:Georgia,serif;">
+
+
+        <!--Title-->
+        <div class="font-sans">
+            <h1 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl"><a href="/blog/update/news/2021/01/16/inittial.html">Inittial Post!</a></h1>
+            <p class="text-sm md:text-base font-normal text-gray-600">Published on 16 January 2021</p>
+        </div>
+
+        <div>
+            <p>Primeira postagem no Blog</p>
+        </div>
+
+    </div>
+
+
+		<!--Tags -->
+		<div class="text-base md:text-sm text-gray-500 px-4 py-6">
+			Tags: <a href="#" class="text-base md:text-sm text-green-500 no-underline hover:underline">Link</a> . <a href="#" class="text-base md:text-sm text-green-500 no-underline hover:underline">Link</a>
+		</div>
+
+		<style type="text/css" media="screen">
   .container {
     margin: 10px auto;
     max-width: 600px;
@@ -56,31 +114,141 @@
   <p>The requested page could not be found.</p>
 </div>
 
-      </div>
-    </main><footer class="site-footer h-card">
-  <data class="u-url" href="/"></data>
 
-  <div class="wrapper">
+		<!--Divider-->
+		<hr class="border-b-2 border-gray-400 mb-8 mx-4">
 
-    <h2 class="footer-heading">Programando pela excelência...</h2>
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">Programando pela excelência...</li><li><a class="u-email" href="mailto:fabiano.marechal@gmail.com">fabiano.marechal@gmail.com</a></li></ul>
-      </div>
+		<!--Subscribe-->
+<div class="container px-4">
+    <div class="font-sans bg-gradient-to-b from-green-100 to-gray-100 rounded-lg shadow-xl p-4 text-center">
+        <h2 class="font-bold break-normal text-xl md:text-3xl">Inscreva-se para receber as novidades em seu e-mail!</h2>
+        <h3 class="font-bold break-normal text-gray-600 text-sm md:text-base">Get the latest posts delivered right to your inbox</h3>
+        <div class="w-full text-center pt-4">
+            <form action="#">
+                <div class="max-w-xl mx-auto p-1 pr-0 flex flex-wrap items-center">
+                    <input type="email" placeholder="youremail@example.com" class="flex-1 mt-4 appearance-none border border-gray-400 rounded shadow-md p-3 text-gray-600 mr-2 focus:outline-none">
+                    <button type="submit" class="flex-1 mt-4 block md:inline-block appearance-none bg-green-500 text-white text-base font-semibold tracking-wider uppercase py-4 rounded shadow hover:bg-green-400">Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- /Subscribe-->
 
-      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/fabianomarechal"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">fabianomarechal</span></a></li><li><a href="https://www.twitter.com/fabianomarechal"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">fabianomarechal</span></a></li></ul>
+		<div class="flex w-full items-center font-sans px-4 py-12">
+  <img class="w-10 h-10 rounded-full mr-4" src="https://github.com/fabianomarechal.png" alt="Avatar of Author">
+  <div class="flex-1 px-2">
+    <p class="text-base font-bold text-base md:text-xl leading-none mb-2">@fabianomarechal</p>
+    <p class="text-gray-600 text-xs md:text-base">Um amante do código e boas práticas de programação. Em busca da excelência e de boas amizades no caminho.</p>
+  </div>
+<!--  <div class="justify-end">-->
+<!--    <a href="https://github.com/fabianomarechal" target="_blank" class="bg-transparent border border-gray-500 hover:border-green-500 text-xs text-gray-500 hover:text-green-500 font-bold py-2 px-4 rounded-full">Ver mais</a>-->
+<!--  </div>-->
 </div>
 
-      <div class="footer-col footer-col-3">
-        <p>Um amante do código e boas práticas de programação. Em busca da excelência e de boas amizades no caminho.</p>
-      </div>
+
+		<!--Divider-->
+		<hr class="border-b-2 border-gray-400 mb-8 mx-4">
+
+		<!--Next & Prev Links-->
+		<div class="font-sans flex justify-between content-center px-4 pb-12">
+			<div class="text-left">
+				<span class="text-xs md:text-sm font-normal text-gray-600">&lt; Previous Post</span><br>
+				<p><a href="#" class="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">Blog title</a></p>
+			</div>
+			<div class="text-right">
+				<span class="text-xs md:text-sm font-normal text-gray-600">Next Post &gt;</span><br>
+				<p><a href="#" class="break-normal text-base md:text-sm text-green-500 font-bold no-underline hover:underline">Blog title</a></p>
+			</div>
+		</div>
+
+
+		<!--/Next & Prev Links-->
+
+	</div>
+	<!--/container-->
+
+	<footer class="bg-white border-t border-gray-400 shadow">
+    <div class="container max-w-4xl mx-auto flex py-8">
+
+        <div class="w-full mx-auto flex flex-wrap">
+            <div class="flex w-full md:w-1/2 ">
+                <div class="px-8">
+                    <h3 class="font-bold text-gray-900">About</h3>
+                    <p class="py-4 text-gray-600 text-sm">
+                        Fabiano is Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mi ut felis tempus commodo nec id erat. Suspendisse consectetur dapibus velit ut lacinia.
+                    </p>
+                </div>
+            </div>
+
+            <div class="flex w-full md:w-1/2">
+                <div class="px-8">
+                    <h3 class="font-bold text-gray-900">Social</h3>
+                    <ul class="list-reset items-center text-sm pt-3">
+                        <li>
+                            <a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="https://github.com/fabianomarechal">Github: @fabianomarechal</a>
+                        </li>
+                        <li>
+                            <a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="https://www.instagram.com/fabianomarechal">Instagram: fabianomarechal</a>
+                        </li>
+                        <li>
+                            <a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-1" href="mailto:fabiano.marechal@gmail.com">E-mail: fabiano.marechal@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
     </div>
-
-  </div>
-
 </footer>
+
+	<script>
+		/* Progress bar */
+		//Source: https://alligator.io/js/progress-bar-javascript-css-variables/
+		var h = document.documentElement,
+			b = document.body,
+			st = 'scrollTop',
+			sh = 'scrollHeight',
+			progress = document.querySelector('#progress'),
+			scroll;
+		var scrollpos = window.scrollY;
+		var header = document.getElementById("header");
+		var navcontent = document.getElementById("nav-content");
+
+		document.addEventListener('scroll', function() {
+
+			/*Refresh scroll % width*/
+			scroll = (h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight) * 100;
+			progress.style.setProperty('--scroll', scroll + '%');
+
+			/*Apply classes for slide in bar*/
+			scrollpos = window.scrollY;
+
+			if (scrollpos > 10) {
+				header.classList.add("bg-white");
+				header.classList.add("shadow");
+				navcontent.classList.remove("bg-gray-100");
+				navcontent.classList.add("bg-white");
+			} else {
+				header.classList.remove("bg-white");
+				header.classList.remove("shadow");
+				navcontent.classList.remove("bg-white");
+				navcontent.classList.add("bg-gray-100");
+
+			}
+
+		});
+
+
+		//Javascript to toggle the menu
+		document.getElementById('nav-toggle').onclick = function() {
+			document.getElementById("nav-content").classList.toggle("hidden");
+		}
+	</script>
+
 </body>
 
 </html>

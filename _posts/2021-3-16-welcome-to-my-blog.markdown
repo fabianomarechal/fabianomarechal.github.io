@@ -3,6 +3,7 @@ layout: post
 title:  "Bem vindos!"
 date:   2021-03-16 00:28:48 -0300
 categories: blog update news
+description: Bem vindos
 ---
 Bem vindo galera, aproveitando mais esse recurso do `github pages `. Vamos em frente na nossa caminhada de aprendizagem e colaboração.
 
