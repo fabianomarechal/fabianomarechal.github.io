@@ -7,15 +7,14 @@ description: Testes unitários tem alvos menores, geralmente uma classe ou metó
 ---
 # Básico sobre testes
 ## 1. Unit Tests
-    - Unidades relativamente isoladas, geralmente uma classe ou metódo.
+- Unidades relativamente isoladas, geralmente uma classe ou metódo.
 ## 2. Feature Tests
-    - Testar a maneira como unidades individuais trabalham juntas e se comunicam. 
+- Testar a maneira como unidades individuais trabalham juntas e se comunicam. 
 ## 3. Application Tests
-    - Geralmente chamado de teste funcional ou de aceitação, testam o inteiro comportamento da aplicação. Usualmente feito
-através de requests HTTP.
+- Geralmente chamado de teste funcional ou de aceitação, testam o inteiro comportamento da aplicação. Usualmente 
+feito através de requests HTTP.
 ## 4. Regression Tests
-    - Similar aos testes funcionais, mas um pouco mais focado na descriçao exata do que 
-deve estar disponível para o usuário fazer e certificar-se que o comportamento do lado do
-usuário é exatamente o esperado.
+- Similar aos testes funcionais, mas um pouco mais focado na descriçao exata do que deve estar disponível para o 
+usuário fazer e certificar-se que o comportamento do lado do usuário é exatamente o esperado.
 
 
